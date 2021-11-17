@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-17T09:17:05.695Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="NAfq2IwHbzIWLVNaoYAA" version="15.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-17T13:33:26.080Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="OsYxltD07jiMAtDEZEWi" version="15.7.4" type="github">
   <diagram name="Page-1" id="55a83fd1-7818-8e21-69c5-c3457e3827bb">
-    <mxGraphModel dx="2062" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -103,7 +103,7 @@
         <mxCell id="yf0NXRO4z68Gx_VuZJrl-39" value="..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#007FFF;" vertex="1" parent="1">
           <mxGeometry x="575" y="670" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="yf0NXRO4z68Gx_VuZJrl-41" value="Logstash pipeline" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#6ABD46;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.085,0.085,0],[0.915,0.085,0],[0.915,0.915,0],[0.085,0.915,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=mxgraph.cisco_safe.architecture.generic_appliance;resIcon=mxgraph.cisco_safe.architecture.log_collector;fontColor=#007FFF;" vertex="1" parent="1">
+        <mxCell id="yf0NXRO4z68Gx_VuZJrl-41" value="Logstash pipeline" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#000066;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.085,0.085,0],[0.915,0.085,0],[0.915,0.915,0],[0.085,0.915,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=mxgraph.cisco_safe.architecture.generic_appliance;resIcon=mxgraph.cisco_safe.architecture.log_collector;fontColor=#007FFF;" vertex="1" parent="1">
           <mxGeometry x="805" y="400" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="yf0NXRO4z68Gx_VuZJrl-55" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#007FFF;exitX=0.085;exitY=0.085;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#3333FF;" edge="1" parent="1" source="yf0NXRO4z68Gx_VuZJrl-41" target="yf0NXRO4z68Gx_VuZJrl-21">
@@ -118,8 +118,8 @@
             <mxPoint x="730" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yf0NXRO4z68Gx_VuZJrl-62" value="监控大屏" style="image;html=1;image=img/lib/clip_art/computers/Server_Tower_128x128.png;fontColor=#007FFF;" vertex="1" parent="1">
-          <mxGeometry x="182" y="130" width="80" height="80" as="geometry" />
+        <mxCell id="yf0NXRO4z68Gx_VuZJrl-62" value="大屏 &amp;amp; 配置管理" style="image;html=1;image=img/lib/clip_art/computers/Server_Tower_128x128.png;fontColor=#007FFF;" vertex="1" parent="1">
+          <mxGeometry x="182" y="120" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="yf0NXRO4z68Gx_VuZJrl-63" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#007FFF;entryX=0.765;entryY=0.48;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -158,11 +158,13 @@
         <mxCell id="yf0NXRO4z68Gx_VuZJrl-72" value="告警，KPI采集" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontColor=#007FFF;" connectable="0" vertex="1" parent="yf0NXRO4z68Gx_VuZJrl-71">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yf0NXRO4z68Gx_VuZJrl-73" value="zabbix agent" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;fontColor=#007FFF;" connectable="0" vertex="1" parent="yf0NXRO4z68Gx_VuZJrl-71">
+        <mxCell id="yf0NXRO4z68Gx_VuZJrl-73" value="zabbix agent/snmp/api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;fontColor=#007FFF;" connectable="0" vertex="1" parent="yf0NXRO4z68Gx_VuZJrl-71">
           <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yf0NXRO4z68Gx_VuZJrl-74" value="Zabbix&amp;nbsp; Server" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;fontColor=#007FFF;" connectable="0" vertex="1" parent="yf0NXRO4z68Gx_VuZJrl-71">
-          <mxGeometry x="1" relative="1" as="geometry" />
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="70" y="33" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="yf0NXRO4z68Gx_VuZJrl-75" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#007FFF;strokeColor=#000000;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="yf0NXRO4z68Gx_VuZJrl-26" target="yf0NXRO4z68Gx_VuZJrl-13">
           <mxGeometry relative="1" as="geometry">
@@ -173,13 +175,10 @@
         <mxCell id="yf0NXRO4z68Gx_VuZJrl-76" value="告警，KPI采集" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontColor=#007FFF;" connectable="0" vertex="1" parent="yf0NXRO4z68Gx_VuZJrl-75">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yf0NXRO4z68Gx_VuZJrl-77" value="zabbix agent" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;fontColor=#007FFF;" connectable="0" vertex="1" parent="yf0NXRO4z68Gx_VuZJrl-75">
+        <mxCell id="yf0NXRO4z68Gx_VuZJrl-77" value="zabbix agent/snmp/api" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;fontColor=#007FFF;" connectable="0" vertex="1" parent="yf0NXRO4z68Gx_VuZJrl-75">
           <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yf0NXRO4z68Gx_VuZJrl-78" value="Zabbix&amp;nbsp; Server" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;fontColor=#007FFF;" connectable="0" vertex="1" parent="yf0NXRO4z68Gx_VuZJrl-75">
-          <mxGeometry x="1" relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="yf0NXRO4z68Gx_VuZJrl-79" value="Logstash pipeline" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#6ABD46;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.085,0.085,0],[0.915,0.085,0],[0.915,0.915,0],[0.085,0.915,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=mxgraph.cisco_safe.architecture.generic_appliance;resIcon=mxgraph.cisco_safe.architecture.log_collector;fontColor=#007FFF;" vertex="1" parent="1">
+        <mxCell id="yf0NXRO4z68Gx_VuZJrl-79" value="Logstash pipeline" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#1A1A1A;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.085,0.085,0],[0.915,0.085,0],[0.915,0.915,0],[0.085,0.915,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=mxgraph.cisco_safe.architecture.generic_appliance;resIcon=mxgraph.cisco_safe.architecture.log_collector;fontColor=#007FFF;" vertex="1" parent="1">
           <mxGeometry x="635" y="400" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="yf0NXRO4z68Gx_VuZJrl-80" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#007FFF;strokeColor=#000000;" edge="1" parent="1">
@@ -192,6 +191,45 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="570" y="380" as="sourcePoint" />
             <mxPoint x="620" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yf0NXRO4z68Gx_VuZJrl-82" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/141_Git_logo_logos-128.png;fontColor=#007FFF;" vertex="1" parent="1">
+          <mxGeometry x="630" y="130" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yf0NXRO4z68Gx_VuZJrl-83" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#007FFF;strokeColor=#000000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.063;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="yf0NXRO4z68Gx_VuZJrl-21" target="yf0NXRO4z68Gx_VuZJrl-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1020" y="500" as="sourcePoint" />
+            <mxPoint x="1070" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yf0NXRO4z68Gx_VuZJrl-84" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#007FFF;strokeColor=#006600;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="yf0NXRO4z68Gx_VuZJrl-82" target="yf0NXRO4z68Gx_VuZJrl-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1020" y="500" as="sourcePoint" />
+            <mxPoint x="1070" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yf0NXRO4z68Gx_VuZJrl-85" value="Logstash pipeline" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#6ABD46;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.085,0.085,0],[0.915,0.085,0],[0.915,0.915,0],[0.085,0.915,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=mxgraph.cisco_safe.architecture.generic_appliance;resIcon=mxgraph.cisco_safe.architecture.log_collector;fontColor=#007FFF;" vertex="1" parent="1">
+          <mxGeometry x="990" y="400" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yf0NXRO4z68Gx_VuZJrl-86" value="交换机配置" style="endArrow=classic;html=1;rounded=0;fontColor=#007FFF;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;strokeColor=#006633;" edge="1" parent="1" source="yf0NXRO4z68Gx_VuZJrl-26" target="yf0NXRO4z68Gx_VuZJrl-85">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="967.5" y="570" as="sourcePoint" />
+            <mxPoint x="860.75" y="455.75" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yf0NXRO4z68Gx_VuZJrl-87" value="交换机配置" style="endArrow=classic;html=1;rounded=0;fontColor=#007FFF;strokeColor=#006633;entryX=0.25;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="yf0NXRO4z68Gx_VuZJrl-85">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="560" as="sourcePoint" />
+            <mxPoint x="1000" y="450" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yf0NXRO4z68Gx_VuZJrl-88" value="交换机配置" style="endArrow=classic;html=1;rounded=0;fontColor=#007FFF;strokeColor=#006633;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="yf0NXRO4z68Gx_VuZJrl-85" target="yf0NXRO4z68Gx_VuZJrl-82">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="570" as="sourcePoint" />
+            <mxPoint x="1012.5" y="460" as="targetPoint" />
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
       </root>
