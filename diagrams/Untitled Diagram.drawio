@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-19T01:41:47.399Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="4ohtPgl-jo-4k6oxSBRo" version="15.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-19T05:39:57.207Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="GzZEUf3-pS6PvGx1d1q8" version="15.8.2" type="github">
   <diagram name="Page-1" id="55a83fd1-7818-8e21-69c5-c3457e3827bb">
     <mxGraphModel dx="2062" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="yf0NXRO4z68Gx_VuZJrl-48" value="" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#007FFF;" parent="1" vertex="1">
           <mxGeometry x="170" y="120" width="160" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="yf0NXRO4z68Gx_VuZJrl-10" value="数据中心1" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="yf0NXRO4z68Gx_VuZJrl-10" value="数据中心1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=default;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="45" y="560" width="535" height="250" as="geometry" />
         </mxCell>
         <mxCell id="yf0NXRO4z68Gx_VuZJrl-1" value="主机" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" parent="1" vertex="1">
@@ -73,7 +73,7 @@
         <mxCell id="yf0NXRO4z68Gx_VuZJrl-21" value="elastic search Cluster" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.elasticsearch_service;fillColor=#F58534;gradientColor=none;fontColor=#007FFF;" parent="1" vertex="1">
           <mxGeometry x="626.25" y="218.25" width="67.5" height="81" as="geometry" />
         </mxCell>
-        <mxCell id="yf0NXRO4z68Gx_VuZJrl-26" value="数据中心n" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="yf0NXRO4z68Gx_VuZJrl-26" value="数据中心n" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="690" y="560" width="535" height="250" as="geometry" />
         </mxCell>
         <mxCell id="yf0NXRO4z68Gx_VuZJrl-28" value="主机" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" parent="1" vertex="1">
