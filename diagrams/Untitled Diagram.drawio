@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-19T01:30:12.056Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="Y8OSXD7FdbHjmmuKT61O" version="15.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-19T01:41:47.399Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="4ohtPgl-jo-4k6oxSBRo" version="15.8.2" type="github">
   <diagram name="Page-1" id="55a83fd1-7818-8e21-69c5-c3457e3827bb">
     <mxGraphModel dx="2062" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -243,6 +243,18 @@
         </mxCell>
         <mxCell id="Q_4yshbsvec5lZbrO-0S-4" value="ftp/sftp/cli" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#0066CC;" vertex="1" parent="1">
           <mxGeometry x="590" y="550" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_4yshbsvec5lZbrO-0S-9" value="VMs" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="674" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_4yshbsvec5lZbrO-0S-11" value="VMs" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="470" y="674" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_4yshbsvec5lZbrO-0S-12" value="SaaS 应用" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="470" y="770" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_4yshbsvec5lZbrO-0S-14" value="SaaS 应用" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=default;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1125" y="769" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
